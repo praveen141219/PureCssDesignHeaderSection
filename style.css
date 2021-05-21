@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+* {
+  font-family: "Questrial", sans-serif;
+}
+body {
+  background: #fff;
+  margin: 0%;
+  padding: 0%;
+  overflow: hidden;
+}
+.menu_block ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+.menu_block ul li {
+  margin: 20px 35px;
+}
+.menu_block ul li a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #000;
+}
+.row {
+  margin: 10%;
+  padding: 2em 0;
+}
+.textcontainer {
+  text-align: justify;
+}
+.textcontainer h1 {
+  font-size: 3.5em;
+}
+
+.textcontainer p {
+  font-size: 1.2em;
+}
+
+button {
+  background: #000;
+  color: white;
+  border: none;
+  font-size: 1.2em;
+  padding: 0.5em 1.8em;
+}
+.circlecontainer {
+  position: relative;
+}
+/* .circlecontainer img {
+  margin-left: 40%;
+  margin-top: 10%;
+} */
+.bordercircle {
+  position: absolute;
+  left: 50%;
+  height: 12em;
+  width: 12em;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+.fillcircle {
+  height: 12em;
+  width: 12em;
+  background: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 30%;
+  left: 60%;
+}
+
+.smallcircle {
+  height: 2em;
+  width: 2em;
+  border-radius: 50%;
+  background: #000;
+  position: absolute;
+  top: 40%;
+  left: 48%;
+}
+.smallsquare {
+  height: 1.5em;
+  width: 1.5em;
+  background: #000;
+  position: absolute;
+  top: 10%;
+  right: 16.5%;
+}
